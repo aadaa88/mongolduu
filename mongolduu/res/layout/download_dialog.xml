@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+     <TextView
+		android:id="@+id/song_title"
+		android:text="Bi baamaar baina"
+		android:textSize="16sp"
+		android:singleLine="true"
+		android:layout_margin="5dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	</TextView>
+	<TextView
+		android:id="@+id/song_artist"
+		android:text="Egshiglen"
+		android:textSize="12sp"
+		android:singleLine="true"
+		android:layout_marginTop="0dp"
+		android:layout_marginBottom="5dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	</TextView>
+	
+	<ProgressBar
+		android:id="@+id/download_progressbar"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_margin="10dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	/>
+	
+	<Button
+		android:id="@+id/download_cancel_button"
+		android:text="@string/button_cancel"
+		android:layout_margin="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+	/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<TextView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="?attr/gdTextItemViewStyle"
+	android:id="@+id/text"
+	android:layout_height="?attr/gdItemViewPreferredHeight"
+	android:minHeight="?attr/gdItemViewPreferredHeight"
+	android:paddingLeft="?attr/gdItemViewPreferredPaddingLeft"
+
+	android:singleLine="true"
+	android:ellipsize="end"
+
+	android:gravity="center_vertical" />

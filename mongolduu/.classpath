@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="libs/ormlite-android-4.20.jar" sourcepath="libs/ormlite-android-4.20-sources.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-core-4.20.jar" sourcepath="libs/ormlite-core-4.20-sources.jar"/>
+	<classpathentry kind="src" path="GreenDroid_src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,22 @@
+#Mongolduu Android App
+
+Open source android app for [Mongolduu](http://www.mongolduu.com/). This app can be downloaded on the [Android Market](https://market.android.com/details?id=com.mongolduu.android.ng).
+
+[![](http://1.bp.blogspot.com/-mmUPvDciJPU/TqB-DSfLJuI/AAAAAAAAAE0/wbJbX80tcnc/s1600/mongolduu.png)](http://1.bp.blogspot.com/-mmUPvDciJPU/TqB-DSfLJuI/AAAAAAAAAE0/wbJbX80tcnc/s1600/mongolduu.png)
+
+## How to use it?
+
+### Test Server
+1. Copy the content of the directory mongolduu/testserver to a webserver. (Needed: `php5-sqlite`, `php5-json`, `php5-curl`)
+2. Make the directory on the webserver writeable: `chmod a+w testserver`
+3. Make the sqlite database file writeable: `chmod a+w mongolduu.sqlite`
+
+### Android App
+1. Clone the project: `git clone https://github.com/tugstugi/mongolduu.git`
+2. Clone GreenDroid library: `git clone https://github.com/cyrilmottier/GreenDroid.git`
+3. Import GreenDroid/GreenDroid in Eclipse.
+4. Import mongolduu/mongolduu in Eclipse.
+5. Change the test server url in `com/mongolduu/android/ng/IMongolduuConstants.java`
+
+## Credits
+Erdene-Ochir Tuguldur <tugstugi@yahoo.com>

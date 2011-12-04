@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="@string/settings_activity_title">
+                <CheckBoxPreference
+                        android:title="@string/settings_notification"
+                        android:defaultValue="true"
+                        android:summary="@string/settings_notification_description"
+                        android:key="notificationSettings" />
+                <ListPreference
+                        android:title="@string/settings_language"
+                        android:summary="@string/settings_language_description"
+                        android:key="languageSettings"
+                        android:defaultValue="en"
+                        android:entries="@array/languageArray"
+                        android:entryValues="@array/languageValues" />
+        </PreferenceCategory>
+</PreferenceScreen>

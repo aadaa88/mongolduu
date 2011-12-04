@@ -1,0 +1,29 @@
+#
+#
+# Ignored files for Android projects
+#
+#
+*.apk
+*.ap_
+*.dex
+*.class
+*R.java
+bin/
+gen/
+
+#
+#
+# Ignored files for IPhone projects
+#
+#
+.DS_Store
+*.swp
+*~.nib
+build/
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+xcuserdata
+

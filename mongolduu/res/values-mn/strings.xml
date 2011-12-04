@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Дуу, Хамтлаг, Дуучны Нэр</string>
+    
+    <string name="news_activity_title">Мэдээ</string>
+    <string name="search_activity_title">Хайлт</string>
+    <string name="chart_activity_title">Хит жагсаалт</string>
+    <string name="info_activity_title">Танилцуулга</string>
+    <string name="settings_activity_title">Тохиргоо</string>
+    <string name="playlist_activity_title">Жагсаалт</string>
+    <string name="pick_song_activity_title">Дуу сонгох</string>
+    
+    <string name="chart_type_today">Өнөөдөр</string>
+    <string name="chart_type_week">Энэ 7 хоногт</string>
+    <string name="chart_type_alltime">Бүх үе</string>
+    <string name="chart_type_new">Шинэ</string>
+	
+	<string name="search_more">Дараагийн %1$d дууг харуул</string>
+	<string name="search_nomore">Ингээд боллоо</string>
+	<string name="search_nothing">Юм олдсонгүй ээ</string>
+	
+	<string name="news_date_format">yyyy.MM.dd</string>
+	
+	<string name="news_more">Дараагийн %1$d мэдээг харуул</string>
+	<string name="news_nomore">Мэдээ ингээд боллоо</string>
+	<string name="news_nothing">Мэдээ алга байна</string>
+	
+	<string name="news_minute_old">минутын өмнө</string>
+	<string name="news_minutes_old">минутын өмнө</string>
+	<string name="news_hour_old">цагийн өмнө</string>
+	<string name="news_hours_old">цагийн өмнө</string>
+	<string name="news_day_old">хоногийн өмнө</string>
+	<string name="news_days_old">хоногийн өмнө</string>
+	<string name="news_month_old">сарын өмнө</string>
+	<string name="news_months_old">сарын өмнө</string>
+	
+	<string name="news_notification_ticker">Мэдээ Хүлээн Авлаа</string>
+	<string name="news_notification_title">Мэдээ</string>
+	
+	<string name="network_problem">сүлжээ асуудалтай байна даа</string>
+	
+	<string name="home_btn_news">Мэдээ</string>
+	<string name="home_btn_search">Хайлт</string>
+	<string name="home_btn_chart">Хит жагсаалт</string>
+	<string name="home_btn_playlist">Дууны жагсаалт</string>
+	<string name="home_btn_info">Танилцуулга</string>
+	<string name="home_btn_settings">Тохиргоо</string>
+	
+	<string name="context_menu_home">Нүүр</string>
+	<string name="context_menu_search">Хайлт</string>
+	<string name="context_menu_refresh">Шинэчилэх</string>
+	<string name="context_menu_add_playlist">Жагсаалт үүсгэх</string>	
+	<string name="context_menu_remove_playlist">Жагсаалт устгах</string>
+	<string name="context_menu_add_song_into_playlist">Дуу жагсаалтанд нэмэх</string>
+	<string name="context_menu_remove_song_from_playlist">Жагсаалтаас устгах</string>
+	<string name="context_menu_remove_song_from_device">Дууг бүр устгах</string>
+	<string name="context_menu_playlist">Дууны жагсаалт</string>
+	<string name="context_menu_download">Татаж авах</string>
+	<string name="context_menu_play_playlist">Жагсаалтыг тоглуулах</string>
+	<string name="context_menu_play_song">Дууг тоглуулах</string>
+	<string name="context_menu_set_as_ringtone">Дууг утасны ая болгох</string>
+	
+	<string name="download_dialog_title">Энэ дууг татаж авах уу?</string>
+	<string name="downloading_dialog_title">Дууг татаж авч байна...</string>
+	
+	<string name="alert_dialog_title">Алдаа</string>
+	<string name="alert_dialog_message_nosdcard">SD card алга!</string>
+	<string name="alert_dialog_message_nospace">SD card тань дүүрчээ!</string>
+	<string name="alert_dialog_message_unknown">Тодорхойгүй алдаа гарлаа!</string>
+	<string name="alert_dialog_message_download_failed">Дуу татаж авахад алдаа гарав, дахин оролдно уу!</string>
+	<string name="alert_dialog_message_database_error">Database алдаа гарлаа!</string>
+	<string name="alert_dialog_message_playlist_name_empty">Нэр хоосон байж болохгүй!</string>
+	<string name="alert_dialog_message_playlist_already_exists">Жагсаалтын нэр давхардаж байна!</string>
+	<string name="alert_dialog_message_play_error">Тоглуулахад алдаа гарлаа!</string>
+	
+	<string name="toast_message_download_ok">Дууг амжилттай татав.</string>
+	<string name="toast_message_download_cancelled">Дууг татахаа болив.</string>
+	<string name="toast_message_already_downloaded">Таньд байгаа дуу байна.</string>
+	<string name="toast_message_song_removed_from_playlist">Дууг жагсаалтаас хасав.</string>
+	<string name="toast_message_song_removed_from_device">Дууг бүрмөсөн устгав.</string>
+	<string name="toast_message_song_added_into_playlist">Дууг жагсаалтанд нэмэв.</string>
+	<string name="toast_message_empty_playlist">Дууны жагсаалт хоосон.</string>
+	<string name="toast_message_set_as_ringtone">Утасны ая амжилттай солигдов.</string>
+	
+	<string name="progress_dialog_set_as_ringtone">Утасны ая тохируулж байна...</string>
+	
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Болих</string>
+	<string name="button_close">Хаах</string>
+	
+	<string name="playlist_all">Бүх дуунууд</string>
+	<string name="playlist_dialog_title">Дууны шинэ жагсаалт</string>
+	<string name="playlist_dialog_hint">Жагсаалтын нэр</string>
+	
+	<string name="playlist_all_empty">Ямар ч дуу алга! Дуу татаж авна уу.</string>
+	<string name="playlist_empty">Дуу алга, дуу жагсаалтандаа нэмнэ үү.</string>
+	<string name="pick_song_empty">Дуу алга байна!</string>
+	
+	<string name="settings_language">Хэл</string>
+	<string name="settings_language_description">Англи болон Монгол хэл сонгож болно.</string>
+	<string name="settings_language_english">Англи</string>
+	<string name="settings_language_mongolian">Монгол</string>
+	
+	<string name="settings_notification">Дохио</string>
+	<string name="settings_notification_description">Шинэ мэдээ ирэх тохиолдолд дохио дуугарна.</string>
+</resources>
